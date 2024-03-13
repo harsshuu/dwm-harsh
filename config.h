@@ -103,7 +103,8 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
-	{ MODKEY, XK_w, spawn, SHCMD("feh --bg-fill --randomize --recursive /home/turtle/wallpapers") },
+	//{ MODKEY, XK_w, spawn, SHCMD("feh --bg-fill --randomize --recursive /home/turtle/wallpapers") },
+	{ MODKEY, XK_w, spawn, SHCMD("/home/turtle/.newlook") },
 	/* Volume Control Key Bindings */
         { MODKEY,                       XK_F8,    spawn,          {.v = up_vol } },
         { MODKEY,                       XK_F6,    spawn,          {.v = down_vol } },

@@ -19,7 +19,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "五", "六", "七", "八", "九" };
+static const char *tags[] = { "", "", "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -66,7 +66,7 @@ static const char *termcmd[]  = { "st", NULL };
 static const char *up_vol[]   = { "pactl", "set-sink-volume", "@DEFAULT_SINK@", "+2%",   NULL };
 static const char *down_vol[] = { "pactl", "set-sink-volume", "@DEFAULT_SINK@", "-2%",   NULL };
 static const char *mute_vol[] = { "pactl", "set-sink-mute",   "@DEFAULT_SINK@", "toggle", NULL };
-static const char *screenshotcmd[] = { "/home/turtle/screenshot.sh", NULL };
+static const char *screenshotcmd[] = { "/home/turtle/.screenshot.sh", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
